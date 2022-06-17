@@ -56,18 +56,18 @@ void insert(const __Key& key, const __T& value);
 
 每次写时给整个哈希表添加共享锁，所有写的线程（访问同一个链表除外）互不干涉，当哈希表要扩容时，给整个哈希表添加排他锁，阻塞所有的写线程来进行线程安全地扩容。
 
-![](img\update1.png)
+![](img/update1.png)
 
-![](img\update2.png)
+![](img/update2.png)
 
 第6步以后，将对node进行delete，在这里有两种delete方式：
 
 同步垃圾回收：
 
-![](img\update3.png)
+![](img/update3.png)
 
 异步垃圾回收：
 
-![](img\update4.png)
+![](img/update4.png)
 
 
