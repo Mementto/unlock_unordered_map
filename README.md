@@ -9,7 +9,7 @@
 | 参数类型  | 默认值       | 功能                                                   |
 | --------- | ------------ | ------------------------------------------------------ |
 | std::size | 12289ul      | 初始化哈希表长度                                       |
-| 枚举      | SYN_RECOVERY | SYN_RECOVERY: 同步回收垃圾；ASY_RECOVERY: 异步回收垃圾 |
+| enum      | SYN_RECOVERY | SYN_RECOVERY: 同步回收垃圾；ASY_RECOVERY: 异步回收垃圾 |
 
 ```c++
 /**
